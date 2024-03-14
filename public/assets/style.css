@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(115, 180, 204, 0.647);
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: white;
+    padding: 20px 100px 20px 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    color: navy;
+    text-align: center;
+}
+
+#weather {
+    margin-top:3em;
+    display: flex;
+    gap: 2em;
+}
+
+.status {
+    width: 15em;
+}
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+}
